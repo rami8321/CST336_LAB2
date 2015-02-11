@@ -21,23 +21,27 @@
     }
 
     function generateRandomNumer(){
-        $num1 = rand(1,13);
-            echo "<img src ='img/cards/". generateRandomSuits()."/$num1.png'>";
-        $num2 = rand(1,13);
-            echo "<img src ='img/cards/". generateRandomSuits()."/$num2.png'>";
-        $num3 = rand(1,13);
-            echo "<img src ='img/cards/". generateRandomSuits()."/$num3.png'>";
-        $num4 = rand(1,13);
-            echo "<img src ='img/cards/". generateRandomSuits()."/$num4.png'>";
-        $num5 = rand(1,13);
-            echo "<img src ='img/cards/". generateRandomSuits()."/$num4.png'>";
+       $my_array = array();
+       
         
+        while(count($my_array) < 5)
+            {
+            $i = rand(1,13);
+            $my_array[] = $i;
+            $my_array = array_unique($my_array);
 
-        $sum = $num1 + $num2 + $num3 + $num4 + $num5 ;
-        echo $sum;
+        }
+
+
+        foreach ($my_array as $item) {
+	        echo"<img src ='img/cards/". generateRandomSuits()."/$item.png'>"; 
+        }
+
+        echo array_sum($my_array);
         echo "<br/>";
         
     }
+
 
     
 ?>
