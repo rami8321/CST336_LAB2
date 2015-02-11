@@ -1,0 +1,21 @@
+/*
+    Document   : Labs/CST336_LAB2/styles．css
+    Created on : 2015-02-11 07:05 PM
+    Author     : tray9888
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: black;
+}
