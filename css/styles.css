@@ -12,8 +12,10 @@ root {
 }
 
 .wrapper {
-    margin-left: auto;
-    margin-right: auto;
+    width: 900px;
+    margin: auto;
+    padding : 10px;
+    border-radius: 15px;
 }
 
 body {
