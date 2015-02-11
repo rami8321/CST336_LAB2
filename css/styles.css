@@ -7,29 +7,27 @@
     To change this template use Tools | Templates.
 */
 
-root {
-    display: block;
+body{
+    
+    font-family: Arvo;
+    background-image:url(http://d13pix9kaak6wt.cloudfront.net/background/faitabbou_1340664069_0.jpg);
 }
 
 .wrapper {
-    width: 900px;
+    width: 700px;
     margin: auto;
-    padding : 10px;
-    border-radius: 15px;
-}
-
-body {
-    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url(http://godaddycasino.com/images/6906374-close-up-of-green-poker-table-felt-background%5B1%5D.jpg);
 }
 
  img:hover{
-                opacity:.5;
-                transition:all 2s;
+                transition:all .5s;
                 border:1px solid blue;
             }
 
  img{
-                border:red 5px solid;
+                border:black 5px solid;
                 border-radius:10px;
               
             }

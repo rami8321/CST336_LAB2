@@ -37,7 +37,7 @@
 	        echo"<img src ='img/cards/". generateRandomSuits()."/$item.png'>"; 
         }
 
-        echo array_sum($my_array);
+        echo "<span style = 'font-size: 6em;'>&nbsp;".array_sum($my_array) ."</span>";
         echo "<br/>";
         
     }
