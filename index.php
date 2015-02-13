@@ -20,7 +20,6 @@
             
             <h1 id="mainheader" font:><strong>SILVERJACK</strong></h1>
             
-            
             <img src="img/miranda.png" alt="Miranda Trayford"/>
             <?=generateRandomNumer();?>
             <br />
@@ -32,6 +31,9 @@
             <br />
             <img src="img/adrian.png" alt="Adrian Miguel"/>
             <?=generateRandomNumer();?>
+            <div class="myButton">
+            <a href="http://august-scuba.codio.io:3000/Labs/CST336_LAB2/index.php">Play Again</a>
+            </div>
         </div> 
         
     </body>

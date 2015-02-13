@@ -36,4 +36,17 @@ body{
                 
                 color:silver;
                 text-align:center;
+                text-decoration: none;
             }
+
+.myButton {
+    text-align:center;
+    color: black;
+    border-radius: 4px;
+    background-color: silver;
+    font-style: bold;
+    margin: 0 auto;
+    padding:5px;
+    text-decoration: none;
+    width: 100px;
+}
