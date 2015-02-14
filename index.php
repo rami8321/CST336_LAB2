@@ -14,7 +14,7 @@
     <body>
         
         <?php
-            require 'Includes/Functions.php';  
+            require 'Includes/Functions.php'; 
         ?>
         <div class="wrapper">
             
@@ -31,8 +31,16 @@
             <br />
             <img src="img/adrian.png" alt="Adrian Miguel"/>
             <?=generateRandomNumer();?>
+            <?php
+                $players = array("Miranda", "Alonso", "Elias", "Adrian");
+                $count = 0;
+                $max = array_search(max($total), $total);
+                echo "<p style = 'color: white; text-align: center; font-size: xx-large'>".$players[$max]." won!</p>";
+        
+
+            ?>
             <div class="myButton">
-            <a href="http://august-scuba.codio.io:3000/Labs/CST336_LAB2/index.php">Play Again</a>
+            <a href="index.php" style = "text-decoration: none; color:black; font-weight: bold;">Play Again</a>
             </div>
         </div> 
         

@@ -39,6 +39,8 @@
 
         echo "<span style = 'font-size: 6em;'>&nbsp;".array_sum($my_array) ."</span>";
         echo "<br/>";
+        global $total;
+        $total[] = array_sum($my_array);
         
     }
 
