@@ -41,7 +41,10 @@
             ?>
             <div class="myButton">
             <a href="index.php" style = "text-decoration: none; color:black; font-weight: bold;">Play Again</a>
+            
             </div>
+            <br/><br/>
+            <footer style = 'color:white; text-align:center; font-size: large;'>&copy 2015 by Elias Ramirez, Mirand Trayford, Alonso Mendoza, and Adrian Miguel.</footer>
         </div> 
         
     </body>
