@@ -10,7 +10,7 @@
 body{
     
     font-family: Arvo;
-    background-image:url(http://d13pix9kaak6wt.cloudfront.net/background/faitabbou_1340664069_0.jpg);
+    background-image: url(http://d13pix9kaak6wt.cloudfront.net/background/faitabbou_1340664069_0.jpg);
 }
 
 .wrapper {
@@ -18,7 +18,7 @@ body{
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    background-image: url(http://static.wixstatic.com/media/f0f711_324b17deddf14740964de33776c8052b.jpg_srz_1428_952_75_22_0.50_1.20_0.00_jpg_srz);
+    background: url(http://static.wixstatic.com/media/f0f711_324b17deddf14740964de33776c8052b.jpg);
 }
 
  img:hover{
